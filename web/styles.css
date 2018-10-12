@@ -1,0 +1,97 @@
+
+body {
+  background: #ccffcc;
+}
+box {
+  background: #ffffff;
+}
+h3 {
+  color: #ffffff;
+}
+h1, h2, h4, h5, h6, text {
+  color: #000000;
+
+}
+
+.Home-button {
+  background: #ffffff;
+  color: #ffffff;
+}
+
+.data-cont {
+  background: #ffffff;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.summary-cont, .viz-cont, .tempviz-cont, .cloudviz-cont, .humidviz-cont, .windviz-cont, .viz-cont-temp, .viz-cont-cloud, .viz-cont-humid, .viz-cont-wind {
+  background: #ffffff;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.tempviz-cont > .tempviz {
+  border: 20px;
+  border-color: #ffffff;
+}
+
+box {
+  background:#ffffff
+}
+
+.navbar {
+  background: #ffffff;
+}
+
+.navbar .Home-button a {
+  background: #000000;
+}
+
+.navbar-default .navbar-brand {
+  color: #000000
+}
+
+.summarytemp, .tempviz, .humidviz, .cloudviz, .windviz, .summarycloud, .summaryhumid, .summarywind {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+}
+
+.beetroot {
+  max-width: 90%;
+  height: auto;
+}
